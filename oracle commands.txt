@@ -1,5 +1,5 @@
-practical 1:
 
+practical 1:
 create table aniket(age number,petname varchar(30));
 desc aniket;
 alter table aniket modify petname varchar(50);
@@ -9,4 +9,20 @@ rename aniket_singh to aniket;
 truncate table aniket;
 drop table aniket;
 
-----------X--------X--------X-------X-----
+
+
+this is inserting wala shit
+practica 2:
+iNSERT INTO aniket  VALUES (12,'tekina',2000000);
+select * from aniket;
+select petname from aniket;
+select* from aniket where age=12;
+
+
+update aniket set salary=20;
+update aniket set salary=40 where age=12;
+
+
+
+delete from aniket where age=12;
+delete from aniket;
