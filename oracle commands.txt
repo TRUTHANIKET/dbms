@@ -1,0 +1,12 @@
+practical 1:
+
+create table aniket(age number,petname varchar(30));
+desc aniket;
+alter table aniket modify petname varchar(50);
+alter table aniket add salary number;
+alter table aniket drop column salary;
+rename aniket_singh to aniket;
+truncate table aniket;
+drop table aniket;
+
+----------X--------X--------X-------X-----
